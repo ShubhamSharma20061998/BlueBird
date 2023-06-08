@@ -1,0 +1,15 @@
+.textContainer {
+  position: absolute;
+  top: 40%;
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 12%;
+}
+.slideShowContainer {
+  padding: 0;
+}
+.slideImage {
+  height: 90vh;
+}

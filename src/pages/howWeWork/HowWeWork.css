@@ -1,0 +1,20 @@
+.banner {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../assets/how-we-work.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.howWeWorkTextContent {
+  padding-top: 2rem;
+}
+.howWeWorkTextContent h3 {
+  margin-bottom: 2rem;
+}
+.howWeWorkTextContent .row {
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}

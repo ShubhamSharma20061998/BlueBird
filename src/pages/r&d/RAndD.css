@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../assets/research-development.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.RAndDImage {
+  width: 20rem;
+}
+.RAndDTextContent {
+  padding: 2rem 0 1rem 0;
+}

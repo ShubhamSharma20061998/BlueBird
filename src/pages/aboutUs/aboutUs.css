@@ -1,0 +1,20 @@
+.AboutUsbanner {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../assets/lopol.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.bannerContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsTextContent {
+  padding: 2rem 0rem 1rem 0rem;
+}

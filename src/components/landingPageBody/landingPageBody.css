@@ -1,0 +1,80 @@
+.whoWeAreContainer {
+  margin-top: 2rem;
+}
+.sustainableEnergyImage {
+  width: 24rem;
+}
+.whoWeAreTextContent {
+  padding-top: 2rem;
+}
+.cardImage {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.cardBody {
+  height: 16rem;
+}
+.cardContainer {
+  text-align: center;
+  border: none;
+}
+.OPERATIONS {
+  background-color: #e5fdd1;
+}
+.DECOMMISSIONING {
+  background-color: #c6ebc9;
+}
+.WASTE {
+  background-color: #e4e9be;
+}
+.cardsContainer {
+  margin-top: 2rem;
+}
+.readMoreBtn {
+  background-color: var(--button-color);
+  width: 9rem;
+  height: 2.3rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+}
+.ourServices {
+  background-image: linear-gradient(
+    0deg,
+    rgba(229, 253, 209, 0.59) 39%,
+    rgba(255, 255, 255, 1) 83.6%
+  );
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+}
+.serviceCardImage {
+  width: 4rem;
+}
+.ourServiceContainer .row {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.ourServiceContainer .card {
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+}
+.ourServiceContainer {
+  margin-bottom: 1rem;
+}
+.servicesCardsSideImage {
+  border: none;
+  border-radius: 0.4rem;
+}
+.whyBelieveUs {
+  padding: 2rem 0 1rem 0;
+  background-color: #daf5ff;
+}
+.whyBelieveUsContainer .row {
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}

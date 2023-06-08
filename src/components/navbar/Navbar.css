@@ -1,0 +1,28 @@
+.logo {
+  width: 12rem;
+  height: auto;
+}
+.nav_Items {
+  align-items: center;
+  justify-content: flex-end;
+}
+.Brochure {
+  text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #86c8bc;
+  padding: 0.4rem;
+  border-radius: 0.375rem;
+  color: #86c8bc;
+}
+.Brochure:hover {
+  color: #86c8bc;
+}
+.nav-pills .nav-link.active {
+  background-color: #86c8bc;
+}
+.nav-link {
+  color: #000;
+}
+.navbar_container {
+  margin-top: 1rem;
+}

@@ -1,0 +1,13 @@
+.footerContainer {
+  background: url("../../assets/footer-bck.jpg") left center no-repeat !important;
+  background-size: cover !important;
+  background-color: transparent !important;
+  margin-top: 0px;
+  z-index: 999 !important;
+  position: relative !important;
+  color: #fff;
+  padding: 2rem 0rem 1rem 0rem;
+}
+.footerContainer .heading {
+  margin-bottom: 1rem;
+}
