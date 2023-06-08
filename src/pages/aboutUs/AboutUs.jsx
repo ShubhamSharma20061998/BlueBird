@@ -13,7 +13,7 @@ const AboutUs = () => {
       <section className="aboutUsTextContent container">
         <h1>We Shield to Yield, a Radiation risk-free Environment</h1>
         <h4>
-          Step ahead with ENVOLTA and let our earth stay “Alive and Kicking”
+          Step ahead with Blue Bird and let our earth stay “Alive and Kicking”
         </h4>
         <p>
           The world is spinning too fast and is undoubtedly heading towards a
@@ -22,7 +22,7 @@ const AboutUs = () => {
           pollution and radiation. Today, every nook and cranny is exposed to
           radiation. As a result, the chances of irreversible radiation damage
           to both human beings and environment cannot be ruled out. Radiation
-          safety and protection is the need of the hour.“ENVOLTA” means
+          safety and protection is the need of the hour.“Blue Bird” means
           something that shrouds you in, for safety. We strive to save you and
           your loved ones from radiation hazards. We are one among the world’s
           top-notch radiation service providers. Now we are looking forward to
@@ -51,7 +51,7 @@ const AboutUs = () => {
         </p>
         <h6>Our Values:</h6>
         <p>
-          ENVOLTA values your trust and never compromises on radiation safety.
+          Blue Bird values your trust and never compromises on radiation safety.
           We conduct authentic testing via trusted equipment.For best results
           the sessions are also conducted with stakeholders and investors.
         </p>

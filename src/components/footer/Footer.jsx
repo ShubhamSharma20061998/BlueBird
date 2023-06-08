@@ -10,54 +10,44 @@ const Footer = () => {
     {
       icon: <MdOutlineLocationOn />,
       title: "Address",
-      text_content:
-        "PS Aviator Building, Suite No 208, NH12, Chinar Park, Kolkata :700136, West Bengal, India.",
+      text_content: "gate no 2 haro kali colony South Dumdum Kolkata 700030",
     },
     {
       icon: <MdOutlinePhone />,
       title: "Phone Number",
-      text_content:
-        "+91 8100162356  / +91 8100162357 Mon-Sat, 9 am until 7 pm.",
+      text_content: "+91 96090 61522",
     },
     {
       icon: <MdMailOutline />,
       title: "Mail Id",
-      text_content: "info@envolta.in We reply within 24 hours",
+      text_content: "info@Blue Bird.in We reply within 24 hours",
     },
   ];
   const quickLinks = [
     {
       title: "Home",
-      link: "#",
+      link: "/home",
     },
     {
       title: "About Us",
-      link: "#",
+      link: "/aboutus",
     },
     {
       title: "Services",
-      link: "#",
+      link: "/services",
     },
     {
       title: "How we work",
-      link: "#",
-    },
-    {
-      title: "Blog",
-      link: "#",
+      link: "/how-we-work",
     },
     {
       title: "FAQ",
-      link: "#",
+      link: "/research-developement",
     },
-    {
-      title: "Privacy Policy",
-      link: "#",
-    },
-    {
-      title: "Contact",
-      link: "#",
-    },
+    // {
+    //   title: "Contact",
+    //   link: "/FAQ",
+    // },
   ];
 
   return (
@@ -65,7 +55,7 @@ const Footer = () => {
       <div className="footerContainer">
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-4">
               <h5 className="heading">Contact Us</h5>
               {contactUs?.map(({ icon, title, text_content }) => {
                 return (
@@ -79,7 +69,7 @@ const Footer = () => {
                 );
               })}
             </div>
-            <div className="col">
+            <div className="col-4">
               <h5 className="heading">Quick Links</h5>
               {quickLinks?.map(({ title, link }) => {
                 return (
@@ -90,14 +80,14 @@ const Footer = () => {
                 );
               })}
             </div>
-            <div className="col">
+            {/* <div className="col">
               <h5 className="heading">locate us</h5>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      <div>
-        <h4>Copyrights © Envolta 2023 All Rights Reserved</h4>
+      <div className="copyright">
+        <h4>Copyrights © Blue Bird 2023 All Rights Reserved</h4>
       </div>
     </>
   );

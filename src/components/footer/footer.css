@@ -11,3 +11,10 @@
 .footerContainer .heading {
   margin-bottom: 1rem;
 }
+.copyright {
+  text-align: center;
+}
+.footerContainer .row {
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -17,6 +17,7 @@ import testing from "../../assets/testing.jpg";
 import testingIcon from "../../assets/testing-1.png";
 import legiationSupport from "../../assets/14-litigation-101.jpg";
 import legiationSupportIcon from "../../assets/litigation-1.png";
+import { useNavigate } from "react-router-dom";
 
 const LandingPageBody = () => {
   const cardsInfo = [
@@ -35,9 +36,10 @@ const LandingPageBody = () => {
       image: WASTEMANAGEMENT,
       title: "WASTE MANAGEMENT",
       text_content:
-        "Envolta conveys both knowledge and information for understanding the various waste processing technologies, that includes in-house designs for solid waste management.",
+        "Blue Bird conveys both knowledge and information for understanding the various waste processing technologies, that includes in-house designs for solid waste management.",
     },
   ];
+  const navigate = useNavigate();
   return (
     <>
       {/* whoWeAreContainer starts */}
@@ -53,7 +55,7 @@ const LandingPageBody = () => {
           <div className="col-7 whoWeAreTextContent">
             <h2>Who We Are</h2>
             <p>
-              Envolta is globally recognized as one of the upcoming top-notch
+              Blue Bird is globally recognized as one of the upcoming top-notch
               service providers in the domain of radiological safety based in
               India. We focus on building a healthy relationship with our users
               and serve best in this industry. Our expertise shall provide
@@ -67,7 +69,12 @@ const LandingPageBody = () => {
               to your gratification and attributed to serving quality assurance
               service.
             </p>
-            <button className="readMoreBtn">Read More</button>
+            <button
+              className="readMoreBtn"
+              onClick={() => navigate("/aboutus")}
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>
@@ -96,7 +103,7 @@ const LandingPageBody = () => {
         <div className="ourServiceContainer container">
           <h2>OUR SERVICES</h2>
           <p>
-            Envolta is just not a name, it is the brand in the world of
+            Blue Bird is just not a name, it is the brand in the world of
             radiation safety services. We are the “One Source” global technology
             enabled services provider in the ground of survey & evaluation,
             testing measurement, inspection, verification etc.
@@ -116,7 +123,7 @@ const LandingPageBody = () => {
                     for the generations of tomorrow. Land remediation deals with
                     an exclusive process of removing contaminant materials or
                     particles from surface water, terrestrial ground, and
-                    sediments. Read more
+                    sediments.<span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -151,7 +158,7 @@ const LandingPageBody = () => {
                     travels in invisible waves or rays. When an emission of
                     energy occurs as electromagnetic waves or as atomic energy,
                     the energy is conveyed in the form of waves or streams of
-                    particles. Read more
+                    particles.<span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -172,7 +179,7 @@ const LandingPageBody = () => {
                     government as well as our concern to safeguard our natural
                     environment. The practice of protecting the atmosphere from
                     the harmful influence is typically known as Environmental
-                    protection. Read more
+                    protection.<span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -206,7 +213,7 @@ const LandingPageBody = () => {
                     A borescope allows the examiner to examine the places that
                     are otherwise inaccessible by the naked eyes. A borescope is
                     a valuable optical tool and especially designed for
-                    non-destructive testing. Read more
+                    non-destructive testing.<span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -226,7 +233,8 @@ const LandingPageBody = () => {
                     A testing analysis is a technique used for examining the
                     material in the laboratory. Certified laboratory
                     professionals carry out the testing analysis in the domain
-                    of fuel, oils and aviation hydraulic fluids. Read more
+                    of fuel, oils and aviation hydraulic fluids.
+                    <span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -260,7 +268,7 @@ const LandingPageBody = () => {
                     “Litigation Support” aid Plaintiff or Defendant in the
                     matter of the pending, existing and/or future Litigation. It
                     deals mainly with the subjects associated to quantification
-                    of economic damage. Read more
+                    of economic damage.<span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -272,11 +280,11 @@ const LandingPageBody = () => {
       {/* why believe us starts */}
       <div className="whyBelieveUs">
         <div className="container whyBelieveUsContainer">
-          <h2>Why Believe In Us!</h2>
           <div className="row">
-            <div className="col-6 textContent">
+            <div className="col-9 textContent">
+              <h2>Why Believe In Us!</h2>
               <p>
-                Envolta is a government registered organization and serving
+                Blue Bird is a government registered organization and serving
                 across the sphere for the welfare of the environment and people.
               </p>
               <p>
@@ -289,17 +297,17 @@ const LandingPageBody = () => {
                 also in the UK, USA, and Switzerland.
               </p>
             </div>
-            <div className="col-5 video">
+            {/* <div className="col-5 video">
               <iframe
                 width="563"
                 height="317"
                 src="https://www.youtube.com/embed/ojN1CL1rYjo"
-                title="Brief about Envolta Radiation Protection and Detection Services"
+                title="Brief about Blue Bird Radiation Protection and Detection Services"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ import secureyoufromradiationrisks from "../../assets/quality-assurance-100x100.
 const HowWeWork = () => {
   return (
     <div>
-      <section className="banner"></section>
+      <section className="HowWeWorkbanner"></section>
       <div className="container howWeWorkTextContent">
         <h3>
           We are a team of certified professionals with proven expertise and
@@ -18,7 +18,7 @@ const HowWeWork = () => {
           ensure your safety from ionizing effects of radiation.
         </h3>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img src={raditionSurvey} alt="raditionSurvey" />
           </div>
           <div className="col-9">
@@ -32,7 +32,7 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img src={inspectionReport} alt="inspectionReport" />
           </div>
           <div className="col-9">
@@ -49,7 +49,7 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img
               src={radiationProtectionandSafetySolution}
               alt="radiationProtectionandSafetySolution"
@@ -58,7 +58,7 @@ const HowWeWork = () => {
           <div className="col-9">
             <h5>Radiation Protection and Safety Solution:</h5>
             <p>
-              The term “ENVOLTA” in Portuguese means encased in or wrapped in.
+              The term “Blue Bird” in Portuguese means encased in or wrapped in.
               We shield you and your loved ones from hazardous radiation. Our
               integrated approach to radiation protection and safety makes us a
               trustworthy name in the service domain. Our specialists will
@@ -69,7 +69,7 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img src={PostInspectionReview} alt="PostInspectionReview" />
           </div>
           <div className="col-9">
@@ -86,7 +86,7 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img src={OurFacilities} alt="OurFacilities" />
           </div>
           <div className="col-9">
@@ -101,7 +101,7 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-2">
             <img
               src={secureyoufromradiationrisks}
               alt="secureyoufromradiationrisks"

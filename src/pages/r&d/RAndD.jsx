@@ -6,13 +6,13 @@ import researchAndDevelopement from "../../assets/1024_768_1485455844_content_im
 const RAndD = () => {
   return (
     <div>
-      <section className="banner"></section>
+      <section className="RAndDbanner"></section>
       <section className="container RAndDTextContent">
         <h2>An Overview</h2>
         <p>
           The field of radiation safety and protection involves consistent and
           rigorous research coupled with subsequent development of ideas to
-          safeguard the general interest. We at Envolta strongly believe in
+          safeguard the general interest. We at Blue Bird strongly believe in
           putting our expertise in R&D to come up with revolutionary output that
           resonates with both quality and safety norms. Our company is
           registered with AERB and our competent team of researchers aims at
@@ -28,7 +28,7 @@ const RAndD = () => {
               The major pollutants in the physical world are either gaseous in
               nature and sometimes these can be radioactive as well for example
               Radon is a radioactive gas that cannot be detected without
-              appropriate testing. At Envolta we focus on providing reliable
+              appropriate testing. At Blue Bird we focus on providing reliable
               services to ensure radiation safety and protection. Moreover, we
               are committed to enhance our sources so that efficiency could be
               sustained at an affordable price. Hence, our strategy is to secure
@@ -50,7 +50,7 @@ const RAndD = () => {
           <div className="col-8">
             <h3>Our Domain Of Research And Development</h3>
             <p>
-              Envolta Research and Development team excels in research and
+              Blue Bird Research and Development team excels in research and
               development concerned to the following sectors of radiation safety
               and protection.
             </p>

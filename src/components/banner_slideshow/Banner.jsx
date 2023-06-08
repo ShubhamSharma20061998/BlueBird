@@ -8,16 +8,16 @@ import "./banner.css";
 const Banner = () => {
   const slideshow = [
     {
+      image: growingUp,
+      heading: "Welcome to Blue Bird The Way we growing up",
+      text_content:
+        "Blue Bird is one of the world’s top-notch radiation & safety protection Organization. We are recognized as the global benchmark in the arena of verification, inspection, non-destructive testing, nuclear safety, testing and measurement etc.",
+    },
+    {
       image: raditionSafety,
       heading: "Radition Safety is a Mandatory key for the future",
       text_content:
         "Radiation Safety is a shielding applied to all activities involving ionizing radiation or radioactive materials. It is beneficial for providing occupational safety and protecting the environment from undue radiation hazards.",
-    },
-    {
-      image: growingUp,
-      heading: "Welcome to Envolta The Way we growing up",
-      text_content:
-        "Envolta is one of the world’s top-notch radiation & safety protection Organization. We are recognized as the global benchmark in the arena of verification, inspection, non-destructive testing, nuclear safety, testing and measurement etc.",
     },
     {
       image: futureReadySaftey,

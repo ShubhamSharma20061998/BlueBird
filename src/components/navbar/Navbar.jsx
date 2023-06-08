@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
@@ -8,11 +8,13 @@ const Navbar = () => {
     { name: "Home", href: "/home" },
     { name: "About Us", href: "/aboutus" },
     { name: "Services", href: "/services" },
-    { name: "R & D", href: "/how-we-work" },
-    { name: "How we Work", href: "/research-developement" },
+    { name: "How we Work", href: "/how-we-work" },
+    { name: "R & D", href: "/research-developement" },
     { name: "FAQ", href: "/FAQ" },
-    { name: "Contact Us", href: "#" },
+    // { name: "Contact Us", href: "#" },
   ];
+  const [active, setActive] = useState(navItemsList[0].href);
+  console.log(active);
   return (
     <div>
       <div className="container-fluid navbar_container">
@@ -21,11 +23,21 @@ const Navbar = () => {
             <img className="logo" src={logo} alt="LOGO" />
           </div>
           <div className="col-8">
-            <Nav className="nav_Items" variant="pills" defaultActiveKey="/home">
+            <Nav
+              className="nav_Items"
+              variant="pills"
+              defaultActiveKey={active}
+              activeKey={active}
+              onSelect={key => {
+                setActive(key);
+              }}
+            >
               {navItemsList?.map(({ href, name }) => {
                 return (
                   <Nav.Item key={href}>
-                    <Nav.Link href={href}>{name}</Nav.Link>
+                    <Nav.Link href={href} eventKey={href}>
+                      {name}
+                    </Nav.Link>
                   </Nav.Item>
                 );
               })}
