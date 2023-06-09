@@ -26,7 +26,7 @@ const Footer = () => {
   const quickLinks = [
     {
       title: "Home",
-      link: "/home",
+      link: "/",
     },
     {
       title: "About Us",
