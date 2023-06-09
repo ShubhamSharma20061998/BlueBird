@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navItemsList = [
@@ -41,9 +41,9 @@ const Navbar = () => {
               {navItemsList?.map(({ href, name }) => {
                 return (
                   <Nav.Item key={href}>
-                    <Nav.Link href={href} eventKey={href}>
+                    <Link to={href} eventKey={href} className={`${href} links`}>
                       {name}
-                    </Nav.Link>
+                    </Link>
                   </Nav.Item>
                 );
               })}
