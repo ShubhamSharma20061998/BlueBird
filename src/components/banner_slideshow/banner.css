@@ -1,7 +1,6 @@
 .textContainer {
   position: absolute;
   top: 40%;
-  width: 28%;
   display: flex;
   justify-content: center;
   flex-direction: column;

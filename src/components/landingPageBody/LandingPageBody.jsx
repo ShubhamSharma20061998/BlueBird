@@ -45,14 +45,14 @@ const LandingPageBody = () => {
       {/* whoWeAreContainer starts */}
       <div className="container whoWeAreContainer">
         <div className="whoWeAre row">
-          <div className="col-5">
+          <div className="col-md-5">
             <img
               src={sustainableEnergy}
               alt="sustainableEnergy"
               className="sustainableEnergyImage"
             />
           </div>
-          <div className="col-7 whoWeAreTextContent">
+          <div className="col-md-7 whoWeAreTextContent">
             <h2>Who We Are</h2>
             <p>
               Blue Bird is globally recognized as one of the upcoming top-notch
@@ -84,7 +84,7 @@ const LandingPageBody = () => {
         <div className="row">
           {cardsInfo?.map(({ image, title, text_content }) => {
             return (
-              <div className="col-4" key={title}>
+              <div className="col-md-4" key={title}>
                 <Card className={`cardContainer ${title}`}>
                   <Card.Body className="cardBody">
                     <Card.Img src={image} className="cardImage" />
@@ -109,7 +109,7 @@ const LandingPageBody = () => {
             testing measurement, inspection, verification etc.
           </p>
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Body>
                   <Card.Img
@@ -128,7 +128,7 @@ const LandingPageBody = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={landRemidation}
@@ -137,14 +137,14 @@ const LandingPageBody = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={radiation}
                 className="servicesCardsSideImage"
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Img
                   variant="top"
@@ -165,7 +165,7 @@ const LandingPageBody = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Img
                   variant="top"
@@ -184,7 +184,7 @@ const LandingPageBody = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={environmentProtection}
@@ -193,14 +193,14 @@ const LandingPageBody = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={borescope}
                 className="servicesCardsSideImage"
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Img
                   variant="top"
@@ -213,14 +213,15 @@ const LandingPageBody = () => {
                     A borescope allows the examiner to examine the places that
                     are otherwise inaccessible by the naked eyes. A borescope is
                     a valuable optical tool and especially designed for
-                    non-destructive testing.<span className="readMore">Read more</span>
+                    non-destructive testing.
+                    <span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </div>
           </div>
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Img
                   variant="top"
@@ -239,7 +240,7 @@ const LandingPageBody = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={testing}
@@ -248,14 +249,14 @@ const LandingPageBody = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-5">
+            <div className="col-md-5">
               <Card.Img
                 variant="top"
                 src={legiationSupport}
                 className="servicesCardsSideImage"
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <Card>
                 <Card.Img
                   variant="top"
@@ -268,7 +269,8 @@ const LandingPageBody = () => {
                     “Litigation Support” aid Plaintiff or Defendant in the
                     matter of the pending, existing and/or future Litigation. It
                     deals mainly with the subjects associated to quantification
-                    of economic damage.<span className="readMore">Read more</span>
+                    of economic damage.
+                    <span className="readMore">Read more</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -297,7 +299,7 @@ const LandingPageBody = () => {
                 also in the UK, USA, and Switzerland.
               </p>
             </div>
-            {/* <div className="col-5 video">
+            {/* <div className="col-md-5 video">
               <iframe
                 width="563"
                 height="317"

@@ -15,7 +15,6 @@ const Navbar = () => {
     // { name: "Contact Us", href: "#" },
   ];
   const navigate = useNavigate();
-  const [active, setActive] = useState(navItemsList[0].href);
   return (
     <div>
       <div className="container-fluid navbar_container">
@@ -29,15 +28,7 @@ const Navbar = () => {
             />
           </div>
           <div className="col-8">
-            <Nav
-              className="nav_Items"
-              variant="pills"
-              defaultActiveKey={active}
-              activeKey={active}
-              onSelect={key => {
-                setActive(key);
-              }}
-            >
+            <Nav className="nav_Items" variant="pills" defaultActiveKey="/">
               {navItemsList?.map(({ href, name }) => {
                 return (
                   <Nav.Item key={href}>

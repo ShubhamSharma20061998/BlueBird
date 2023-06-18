@@ -37,9 +37,11 @@ const Banner = () => {
                 src={image}
                 alt="First slide"
               />
-              <div className="textContainer">
-                <h2>{heading}</h2>
-                <p>{text_content}</p>
+              <div className="textContainer row">
+                <div className="col-md-4 col-11">
+                  <h2>{heading}</h2>
+                  <p>{text_content}</p>
+                </div>
               </div>
             </Carousel.Item>
           );

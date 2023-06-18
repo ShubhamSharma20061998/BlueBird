@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <ScrollTop />
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />}></Route>
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/how-we-work" element={<HowWeWork />} />

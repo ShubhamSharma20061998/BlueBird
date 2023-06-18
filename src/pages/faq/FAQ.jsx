@@ -60,7 +60,7 @@ const FAQ = () => {
               called HZE ions.
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-md-3">
             <img src={faq} alt="faq" />
           </div>
         </div>

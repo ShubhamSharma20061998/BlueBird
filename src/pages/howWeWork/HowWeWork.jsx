@@ -18,10 +18,10 @@ const HowWeWork = () => {
           ensure your safety from ionizing effects of radiation.
         </h3>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img src={raditionSurvey} alt="raditionSurvey" />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>Official visit & Radiation Survey:</h5>
             <p>
               Firstly, our competent radiation safety officers visit the entire
@@ -32,10 +32,10 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img src={inspectionReport} alt="inspectionReport" />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>Inspection Report:</h5>
             <p>
               The official inspection is followed by subsequent verification of
@@ -49,13 +49,13 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img
               src={radiationProtectionandSafetySolution}
               alt="radiationProtectionandSafetySolution"
             />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>Radiation Protection and Safety Solution:</h5>
             <p>
               The term “Blue Bird” in Portuguese means encased in or wrapped in.
@@ -69,10 +69,10 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img src={PostInspectionReview} alt="PostInspectionReview" />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>Post Inspection Review:</h5>
             <p>
               The next step is the successful installation of radiation safety
@@ -86,10 +86,10 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img src={OurFacilities} alt="OurFacilities" />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>Our Facilities:</h5>
             <p>
               Regular maintenance is the key to excellent performance. Our low
@@ -101,13 +101,13 @@ const HowWeWork = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <img
               src={secureyoufromradiationrisks}
               alt="secureyoufromradiationrisks"
             />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h5>
               We follow a five-fold path to secure you from radiation risks:-
             </h5>

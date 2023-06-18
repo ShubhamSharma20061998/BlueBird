@@ -85,3 +85,11 @@
 .readMore {
   color: orange;
 }
+@media screen and (max-width: 1023px) {
+  .cardBody {
+    height: 17rem;
+  }
+  .cardsContainer .row {
+    gap: 0.7rem;
+  }
+}

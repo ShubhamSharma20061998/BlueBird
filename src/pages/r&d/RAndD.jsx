@@ -22,7 +22,7 @@ const RAndD = () => {
           let the earth breathe free of ionizing radiation.
         </p>
         <div className="row">
-          <div className="col-8">
+          <div className="col-md-8">
             <h3>Our Vision For The Mission</h3>
             <p>
               The major pollutants in the physical world are either gaseous in
@@ -42,12 +42,12 @@ const RAndD = () => {
               disturbing the ecological balance.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <img src={vision} alt="vision" className="RAndDImage" />
           </div>
         </div>
         <div className="row">
-          <div className="col-8">
+          <div className="col-md-8">
             <h3>Our Domain Of Research And Development</h3>
             <p>
               Blue Bird Research and Development team excels in research and
@@ -62,7 +62,7 @@ const RAndD = () => {
             </li>
             <li>Development of IoT & AI Based Devices.</li>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <img
               src={researchAndDevelopement}
               alt="researchAndDevelopement"

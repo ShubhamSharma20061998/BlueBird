@@ -4,13 +4,13 @@ import "./aboutUs.css";
 const AboutUs = () => {
   return (
     <>
-      <section className="AboutUsbanner container-fluid">
+      <div className="AboutUsbanner container-fluid">
         <div className="container bannerContent">
           <h3>Join hands with us to save future </h3>
           <p>" Love your planet keep it radiation safe! "</p>
         </div>
-      </section>
-      <section className="aboutUsTextContent container">
+      </div>
+      <div className="container aboutUsTextContent">
         <h1>We Shield to Yield, a Radiation risk-free Environment</h1>
         <h4>
           Step ahead with Blue Bird and let our earth stay “Alive and Kicking”
@@ -67,7 +67,7 @@ const AboutUs = () => {
         <li>Borescope Inspection</li>
         <li>Litigation Support</li>
         <li>Testing and Analysis</li>
-      </section>
+      </div>
     </>
   );
 };
