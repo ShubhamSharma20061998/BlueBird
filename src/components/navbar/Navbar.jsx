@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
-import { Link, useNavigate } from "react-router-dom";
-
-const Navbar = () => {
+const Rought = () => {
   const navItemsList = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/aboutus" },
@@ -16,34 +17,29 @@ const Navbar = () => {
   ];
   const navigate = useNavigate();
   return (
-    <div>
-      <div className="container-fluid navbar_container">
-        <div className="row">
-          <div className="col-4">
-            <img
-              className="logo"
-              src={logo}
-              alt="LOGO"
-              onClick={() => navigate("/")}
-            />
-          </div>
-          <div className="col-8">
-            <Nav className="nav_Items" variant="pills" defaultActiveKey="/">
-              {navItemsList?.map(({ href, name }) => {
-                return (
-                  <Nav.Item key={href}>
-                    <Link to={href} eventKey={href} className={`${href} links`}>
-                      {name}
-                    </Link>
-                  </Nav.Item>
-                );
-              })}
-            </Nav>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Navbar expand="lg" className="container-fluid navbar_container">
+      <Navbar.Brand href="#home">
+        <img
+          className="logo"
+          src={logo}
+          alt="LOGO"
+          onClick={() => navigate("/")}
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto nav_Items">
+          {navItemsList?.map(({ href, name }) => {
+            return (
+              <Link to={href} eventKey={href} className={`${href} links`}>
+                {name}
+              </Link>
+            );
+          })}
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default Rought;
