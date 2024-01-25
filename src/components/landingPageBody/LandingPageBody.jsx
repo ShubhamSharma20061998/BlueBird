@@ -36,7 +36,7 @@ const LandingPageBody = () => {
       image: WASTEMANAGEMENT,
       title: "WASTE MANAGEMENT",
       text_content:
-        "Blue Bird conveys both knowledge and information for understanding the various waste processing technologies, that includes in-house designs for solid waste management.",
+        "company conveys both knowledge and information for understanding the various waste processing technologies, that includes in-house designs for solid waste management.",
     },
   ];
   const navigate = useNavigate();
@@ -55,7 +55,7 @@ const LandingPageBody = () => {
           <div className="col-md-7 whoWeAreTextContent">
             <h2>Who We Are</h2>
             <p>
-              Blue Bird is globally recognized as one of the upcoming top-notch
+              company is globally recognized as one of the upcoming top-notch
               service providers in the domain of radiological safety based in
               India. We focus on building a healthy relationship with our users
               and serve best in this industry. Our expertise shall provide
@@ -103,7 +103,7 @@ const LandingPageBody = () => {
         <div className="ourServiceContainer container">
           <h2>OUR SERVICES</h2>
           <p>
-            Blue Bird is just not a name, it is the brand in the world of
+            company is just not a name, it is the brand in the world of
             radiation safety services. We are the “One Source” global technology
             enabled services provider in the ground of survey & evaluation,
             testing measurement, inspection, verification etc.
@@ -286,7 +286,7 @@ const LandingPageBody = () => {
             <div className="col-9 textContent">
               <h2>Why Believe In Us!</h2>
               <p>
-                Blue Bird is a government registered organization and serving
+                company is a government registered organization and serving
                 across the sphere for the welfare of the environment and people.
               </p>
               <p>
@@ -304,7 +304,7 @@ const LandingPageBody = () => {
                 width="563"
                 height="317"
                 src="https://www.youtube.com/embed/ojN1CL1rYjo"
-                title="Brief about Blue Bird Radiation Protection and Detection Services"
+                title="Brief about company Radiation Protection and Detection Services"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen

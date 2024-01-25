@@ -9,9 +9,9 @@ const Banner = () => {
   const slideshow = [
     {
       image: growingUp,
-      heading: "Welcome to Blue Bird The Way we growing up",
+      heading: "Welcome to company The Way we growing up",
       text_content:
-        "Blue Bird is one of the world’s top-notch radiation & safety protection Organization. We are recognized as the global benchmark in the arena of verification, inspection, non-destructive testing, nuclear safety, testing and measurement etc.",
+        "company is one of the world’s top-notch radiation & safety protection Organization. We are recognized as the global benchmark in the arena of verification, inspection, non-destructive testing, nuclear safety, testing and measurement etc.",
     },
     {
       image: raditionSafety,

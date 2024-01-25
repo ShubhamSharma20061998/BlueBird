@@ -58,7 +58,7 @@ const HowWeWork = () => {
           <div className="col-md-9">
             <h5>Radiation Protection and Safety Solution:</h5>
             <p>
-              The term “Blue Bird” in Portuguese means encased in or wrapped in.
+              The term “company” in Portuguese means encased in or wrapped in.
               We shield you and your loved ones from hazardous radiation. Our
               integrated approach to radiation protection and safety makes us a
               trustworthy name in the service domain. Our specialists will

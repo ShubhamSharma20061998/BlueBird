@@ -18,3 +18,12 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.quickLinksContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.footerLinks {
+  text-decoration: none;
+  color: #fff;
+}

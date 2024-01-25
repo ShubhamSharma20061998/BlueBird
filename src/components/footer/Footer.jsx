@@ -5,22 +5,23 @@ import {
   MdOutlinePhone,
   MdMailOutline,
 } from "react-icons/md";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const contactUs = [
     {
       icon: <MdOutlineLocationOn />,
       title: "Address",
-      text_content: "gate no 2 haro kali colony South Dumdum Kolkata 700030",
+      text_content: "address",
     },
     {
       icon: <MdOutlinePhone />,
       title: "Phone Number",
-      text_content: "+91 96090 61522",
+      text_content: "+91 xxxxx xxxxx",
     },
     {
       icon: <MdMailOutline />,
       title: "Mail Id",
-      text_content: "info@Blue Bird.in We reply within 24 hours",
+      text_content: "info@company.in We reply within 24 hours",
     },
   ];
   const quickLinks = [
@@ -71,14 +72,15 @@ const Footer = () => {
             </div>
             <div className="col-4">
               <h5 className="heading">Quick Links</h5>
-              {quickLinks?.map(({ title, link }) => {
-                return (
-                  <div className={`${title}`}>
-                    {title}
-                    <span></span>
-                  </div>
-                );
-              })}
+              <div className="quickLinksContainer">
+                {quickLinks?.map(({ title, link }) => {
+                  return (
+                    <Link to={link} className="footerLinks">
+                      {title}
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
             {/* <div className="col">
               <h5 className="heading">locate us</h5>
@@ -87,7 +89,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <h4>Copyrights © Blue Bird 2023 All Rights Reserved</h4>
+        <h4>Copyrights © company 2023 All Rights Reserved</h4>
       </div>
     </>
   );
