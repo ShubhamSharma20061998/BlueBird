@@ -1,5 +1,5 @@
 # Sustainable Energy Showcase Website
-[Demo](https://sustainable-energy.netlify.app/)
+https://sustainable-energy.netlify.app/
 
 # Overview
 This project serves as a testament to my frontend development skills, showcasing proficiency in React, HTML, CSS, and Bootstrap. It's a static, fully responsive website dedicated to promoting sustainable energy. The design emphasizes a seamless user experience to highlight my understanding of UI principles.
